@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Mystery+Quest&family=Sedgwick+Ave+Display&display=swap");
+
+body {
+    font-family: 'Mystery', sans-serif;
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: #3C3C3C;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #F0A500;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 80%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #F0A500;
+    color: #2C2C2C;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #D48F00;
+  }
+  
+  #booksDisplay {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  #booksDisplay .booksDisplay_item {
+    display: flex;
+    gap: 3;
+    background-color: #4C4C4C;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  #booksDisplay .booksDisplay_item img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 250px;
+  }
+  
+  #booksDisplay .booksDisplay_item div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #booksDisplay .booksDisplay_item h2 {
+    color: #F0A500;
+  }
+  
+  #booksDisplay .booksDisplay_item p {
+    color: #CCCCCC;
+  }
+  
